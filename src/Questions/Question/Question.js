@@ -10,7 +10,8 @@ const question = (props) => {
         </div>
 
         <div className="more">
-          Asked {formatDate(new Date(props.creationTime))}
+          <span className="creationDate">Asked {formatDate(new Date(props.creationTime))} by</span>
+          <span className="owner">{props.owner} ({props.ownerReputation})</span>
         </div>
       </a>
     </li>

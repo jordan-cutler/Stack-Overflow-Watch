@@ -11,6 +11,7 @@ const questions = (props) => {
         url={question.link}
         creationTime={question.creation_date * 1000}
         owner={question.owner.display_name}
+        ownerReputation={question.owner.reputation}
       />
     )
   });
