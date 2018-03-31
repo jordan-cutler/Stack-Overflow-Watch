@@ -1,0 +1,16 @@
+{
+  "short_name": "Stack Overflow Watch",
+  "name": "Stack Overflow Watch",
+  "description": "Receive notifications as questions are asked with your tags",
+  "manifest_version": 2,
+  "author": "Jordan Cutler",
+  "browser_action": {
+    "default_icon": "tab-icon.png",
+    "default_popup": "index.html",
+    "default_title": "Show unanswered questions"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "version": "1.0"
+}
