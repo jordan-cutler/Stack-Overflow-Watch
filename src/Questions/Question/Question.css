@@ -1,0 +1,26 @@
+.question {
+    padding: 8px 0;
+    border-bottom: 1px #e5e5e5 solid;
+}
+
+.questionLink {
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: black;
+    font-size: 0.75rem;
+}
+
+.question .more {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.question .name {
+    font-weight: bold;
+    white-space: nowrap;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
